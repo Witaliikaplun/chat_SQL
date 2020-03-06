@@ -33,7 +33,7 @@ public class Server {
 
         try {
             connect();
-            System.out.println("Соединение с БД произошло");
+            System.out.println(" Соединение с БД произошло");
 
             server = new ServerSocket(8189);
             System.out.println("Сервер запустился");
