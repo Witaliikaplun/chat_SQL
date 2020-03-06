@@ -141,7 +141,7 @@ public class Server {
         while (rs.next()) { //обход нашей таблицы
             System.out.println(rs.getString("nick") + " " + rs.getString("pass") + " " + rs.getString("login"));
         }
-        rs.close(); //после того как обошли таблицу, закрываем
+        rs.close();    //после того как обошли таблицу, закрываем
     }
 
     public static Statement getStmt() {
